@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sonuc {
+    width: 100%;
+    font-size:2.5rem;
+    color: white;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: right;
+    border: none;
+    background-color: dimgrey ;
+}
+.calculator {
+  width: 50%;
+  margin-top: 100%;
+  text-align: center;
+}
+.btn{ 
+    height: 40px;
+    background-color: rgb(180, 165, 165);
+}
+.calc-button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    padding: 0;
+
+}
+.sifir{
+    height: 100%;
+    width: 100%;
+    grid-area: 5/1/5/3;
+}
